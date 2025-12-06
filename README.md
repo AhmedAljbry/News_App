@@ -1,3 +1,5 @@
+![News App](Gemini_Generated_Image_t6br0qt6br0qt6br.png)
+
 # News App – Flutter Real-Time News Application  
 ### Built with Flutter + REST API (News API or Custom Backend)  
 ### Developed by **Ahmed Aljbry**
@@ -9,47 +11,47 @@ It includes an elegant UI, smooth animations, search functionality, and a profes
 
 ## 🌐 Features
 
-### 📰 **Live News Feed**
+### 📰 Live News Feed
 - Real-time news from API  
 - Infinite scrolling  
 - Pull-to-refresh  
 - Clean and modern card UI  
 
-### 📂 **News Categories**
-- Browse news by category:
-  - Sports  
-  - Technology  
-  - Health  
-  - Business  
-  - Entertainment  
-  - Science  
-  - General  
+### 📂 News Categories
+Browse news by category:
+- Sports  
+- Technology  
+- Health  
+- Business  
+- Entertainment  
+- Science  
+- General  
 
-### 🔍 **Search System**
+### 🔍 Search System
 - Search articles by keyword  
 - Real-time query updates  
 - Server-side filtering  
 
-### 📄 **Article Details Screen**
+### 📄 Article Details Screen
 - Full article preview  
 - Article image + title + publication time  
 - "Read More" button to open full article in browser  
 
-### 🖼 **High-Quality Images**
+### 🖼 High-Quality Images
 - Cached images  
 - Error fallback  
 - Smooth loading animation  
 
-### 🎨 **Beautiful UI/UX**
+### 🎨 Beautiful UI/UX
 - Custom color theme  
 - Professional typography  
 - Responsive across all devices  
 
-### ⚡ **Optimized Performance**
-- API caching (if implemented)  
+### ⚡ Optimized Performance
+- API caching (optional)  
 - Lightweight models  
 - Low memory usage  
-- Fast navigation  
+- Smooth navigation  
 
 ---
 
@@ -61,14 +63,17 @@ lib/
     constants/
     theme/
     utils/
+
   data/
     models/
     services/        # API calls
+
   features/
     home/
     categories/
     search/
     article_detail/
+
   widgets/
   main.dart
   app.dart
